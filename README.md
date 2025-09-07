@@ -80,7 +80,7 @@ cd vcpkg
 ./vcpkg install cryptopp:x64-mingw-static
 ```
 
-#### Step 2: Configure CMake
+#### Step 2: Configure CMake (Change path according to your system)
 
 ```bash
 mkdir build
