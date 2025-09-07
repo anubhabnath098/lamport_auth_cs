@@ -29,11 +29,13 @@ private slots:
     void appendLog(const QString& message);
     void onProtocolStep();
     void onClearLog();
+    void onToggleTheme();
 
 private:
     void initializeProtocol();
     void loadConfig();
-    void setupPremiumStyle();
+    void setDarkTheme(); // Dark Mode
+    void setLightTheme();
     
     Ui::MainWindow *ui;
     std::unique_ptr<NetworkManager> networkManager;
@@ -42,6 +44,7 @@ private:
     
     bool isAlice;
     bool protocolRunning;
+    bool isDarkMode;
     int currentRound;
     int maxRounds;
     int sleepDuration;

@@ -43,7 +43,7 @@ set(HEADERS
 
 # Use absolute path for UI file
 set(UI_FILES
-    ${CMAKE_SOURCE_DIR}/ui/mainwindow.ui
+    ${CMAKE_SOURCE_DIR}/src/mainwindow.ui
 )
 
 qt6_add_executable(LamportAuthProtocol ${SOURCES} ${HEADERS} ${UI_FILES})
