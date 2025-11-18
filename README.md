@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project implements Lamport's one-way hash chain authentication protocol using Qt6 and Crypto++.
+This project implements Lamport's one-way hash chain authentication protocol using Qt6 and Crypto++
 
 ### Features
 
